@@ -1,0 +1,12 @@
+/*CSS*/
+body {
+	background-color: lavender;
+	font-family: 'Zen Antique', serif;
+	
+}	
+.pos {
+	display: block;
+	margin-left: auto;
+	margin-right: 10px;
+	width: 20%;
+}	

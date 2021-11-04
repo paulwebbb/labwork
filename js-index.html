@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="myStyles.css" rel="stylesheet" >
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var firstName = "Paul";
+		document.write("My first name " + firstName+ "\n how are you? "); //making use of the variable
+		
+		var lastName = "Webb"; // Differnt Variable 1
+		document.write("My last name is " + lastName+ "\n This is my lab work ");
+		
+		var age; // Different Variable 2
+			age = prompt("Enter Your Age");
+			
+		var studentID; // Different Variable 3
+			studentID = prompt("Enter Your Student ID");	
+			//default datatype from prompt () is String or text
+			
+		var nOne; // Different Variable 4
+		var nTwo; // Different Variable 5
+			//taking in and parsing numbers
+			nOne = parseInt(prompt("Enter first number"));
+			nTwo = parseInt(prompt("Enter second number"));
+			
+			if(nOne < nTwo) {
+				document.write("nOne is less than nTwo");
+			}
+			
+			if(nOne < nTwo) {
+				//code to execute when if statement evaluates to true
+				document.write("nOne is less than than nTwo");
+			}else {
+				//code to execute when if statement evaluates to false
+				document.write("nOne is greater than nTwo");
+			}
+				
+		
+	</script>
+  </head>
+  <body>
+	<p>my paragraph</p>
+	<a href="page2.html">Page 2</a>
+	<img src ="image.png" alt="yoda" class="pos">
+	
+	
+  </body>
+</html>
